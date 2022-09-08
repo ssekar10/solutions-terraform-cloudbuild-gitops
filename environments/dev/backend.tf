@@ -15,7 +15,8 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    credentials = "keys.json"
+    bucket = "tf-sample-361709-tfstate"
     prefix = "env/dev"
   }
 }
