@@ -31,7 +31,7 @@
   boot_disk {
     initialize_params {
       image = "debian-11-bullseye-v20220822"
-      size = 30
+      size = 35
       
     }
     auto_delete = false
