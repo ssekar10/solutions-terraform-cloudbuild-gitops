@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-output "instance_name" {
+/* output "instance_name" {
   value = "${module.google_compute_instance.instance_name}"
   sensitive = true
 }
+ */

@@ -20,3 +20,8 @@ locals {
 module "google_compute_instance" {
   source  = "../../modules/vm-basic"
 }
+
+
+/* module "google_data_fusion_instance" {
+  source  = "../../modules/datafusion"
+} */
